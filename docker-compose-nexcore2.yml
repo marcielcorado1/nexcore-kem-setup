@@ -172,7 +172,7 @@ services:
       - 'evonexus2_adw_custom:/workspace/ADWs/routines/custom'
       - 'evonexus2_agents_custom:/workspace/.claude/agents'
       - 'evonexus2_skills_custom:/workspace/.claude/skills'
-      - 'evonexus2_commands_custom:/workspace/.claire/commands'
+      - 'evonexus2_commands_custom:/workspace/.claude/commands'
       - 'evonexus2_templates:/workspace/.claude/templates'
       - 'evonexus2_rules:/workspace/.claude/rules'
       - 'evonexus2_hooks:/workspace/.claude/hooks'
