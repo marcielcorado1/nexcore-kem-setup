@@ -46,10 +46,10 @@ services:
       NGROK_URL: https://${DOMAIN}/social-auth
 
       # Chave secreta da sessão Flask
-      EVONEXUS_SECRET_KEY: HVwxeWjBxn0VWKQnVNFCbyf4DyHH5WkclXyI4g9HpG0
+      EVONEXUS_SECRET_KEY: HVwxeWjBxn0VWKQnFFFCbyf4DyHH5WkclXyI4g9HpG0
 
       # Token da API do Dashboard (usado pelos agentes internos)
-      DASHBOARD_API_TOKEN: EwB23pNygH6JJinQY3YltVkVgHE5msqcZM_g5RbXYmB
+      DASHBOARD_API_TOKEN: EwB23pNygH6JJinQY3YltAkVgHE5msqcZM_g5RbXYmB
 
       # Origens permitidas para CORS
       CORS_ALLOWED_ORIGINS: https://${DOMAIN}
