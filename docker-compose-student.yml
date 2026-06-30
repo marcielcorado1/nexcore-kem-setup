@@ -79,7 +79,7 @@ services:
       - uv
       - run
       - python
-      - /workspace/workspace/arquivos/start-social-auth.py
+      - /workspace/workspace/social/start-social-auth.py
     environment:
       - TZ=America/Sao_Paulo
       - SOCIAL_AUTH_PORT=8765
